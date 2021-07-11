@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.js", "src/**/*.tsx", "src/**/*.jsx"],
+  "exclude": [
+    "**/*.spec.ts",
+    "**/*.spec.js",
+    "**/*.spec.tsx",
+    "**/*.spec.jsx",
+    "node_modules",
+    "sandbox"
+  ]
+}
